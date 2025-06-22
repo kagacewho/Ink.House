@@ -435,3 +435,204 @@ footer {
     }    
 
 }
+@media (min-width: 320px) and (max-width: 767px){
+    .container {
+        max-width: 100%;
+    }
+    .header-flex {
+        flex-direction: column;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .header-info {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .header-main-links {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .header-link {
+        margin-top: 10px;
+    }
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .bird {
+        display: none;
+    }
+
+    .about-right {
+        width: 100%;
+    }
+
+    .about-title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .about-text {
+        font-size: 14px;
+        margin: 10px 0 20px;
+    }
+
+    .about-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .works-info {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .works-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .works-button {
+        margin: 5px 0;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .works-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-item {
+        width: 80%; 
+        margin-bottom: 20px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .work-picture {
+        width: 80%; 
+        height: auto;
+        margin: 0 auto;
+        display: block; 
+    }
+
+    .work-artist, .work-name, .work-type, .work-price {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .work-buy {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    #new-collection {
+        padding: 30px 0;
+        background-size: cover;
+        height: auto;
+    }
+
+    .new-collection-title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .new-collection-title img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .new-collection-title h2 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .new-collection-info p {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .new-collection-info button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: auto;
+        display: flex;
+        width: 80%;
+        justify-content: center;
+
+    }
+    .team {
+        flex-direction: column;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .team-info h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .team-info p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .team-immage {
+        margin: 10px auto; 
+    }
+    .team-immagemax {
+        width: 290px;
+        height: 286px;
+        margin: 10px auto; 
+        display: block;
+    }
+    .footer-flex {
+        flex-direction: column;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .footer-left {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-context {
+        margin: 10px 0;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        margin: 20px 0;
+        align-items: center;
+    }
+
+    .footer-link {
+        margin: 15px 0;
+    }
+
+    .footer-link-prod {
+        margin: 15px 0;
+    }
+
+    .img-footer {
+        justify-content: center;
+    }
+
+    .footer-social-icon {
+        margin: 0 15px;
+    }
+
+    .footer-text-social {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .people {
+        display: flex;
+    }
+}
