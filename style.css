@@ -1,0 +1,437 @@
+:root {
+    --primary-color: #E1EDE6;
+    --main-font:"Raleway", sans-serif;
+    --main-font-size: 20px;
+    --main-font-color:#2C2D35;
+    --green-font-color:#598D66;
+    --gray-font-clolor:#86928B;
+    --medium-font-size: 18px;
+    --white-color: #F4F6F5;
+    --medium-font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-weight: 500;
+    background-color: var(--white-color);
+}
+
+a, button {
+    font-family: var(--main-font);
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1110px;
+        margin: 0 auto;
+    }
+    .header-main-links {
+        font-size: var(--main-font-size);
+    }
+
+    .about-title {
+        font-size: 60px;
+    }
+    .about-right {
+        width: 540px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .work-item {
+        width: 310px;
+    }
+
+    .new-collection-title img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .new-collection-title h2 {
+        width: 421px;
+    }
+
+    .new-collection-info p {
+        width: 540px;
+    }
+
+    .new-collection-info button {
+        padding: 21px 60px;
+    }
+
+    .team {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .team-info p {
+        width: 635px;
+        margin: 20px 0;
+    }
+
+    .team-info h2 {
+        margin-top: 80px;
+    }
+
+    .footer-links {
+        display: flex;
+        margin-left: 115px;
+    }
+}
+
+.header {
+    background-color: var(--primary-color);
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0 32px 0;
+}
+
+.header-link::after {
+    content: url(assets/basket.svg);
+
+}
+
+.header-link {
+    background: none;
+    border: none; 
+}
+
+.header-main-links {
+    font-size: var(--main-font-size);
+    color: var(--main-font-color);  
+    text-decoration: none;
+    margin-right: 60px;
+    font-weight: 500;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-title {
+    font-weight: 500;
+}
+
+.about-title span {
+    color: var(--green-font-color);
+}
+
+.about-text {
+    color: var(--gray-font-clolor);
+    font-size: var(--medium-font-size);
+    margin: 20px 0 60px 0;
+}
+
+.about-button {
+    padding: 21px 61px;
+    color: var(--green-font-color);
+    font-size:var(--main-font-size);
+    background: none;
+    border: 1px solid var(--green-font-color);
+}
+
+.works-title {
+    font-weight: 500;
+}
+
+.works-button:nth-child(2) {
+    margin: 0 32px;
+}
+
+.works-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.works-button {
+    border: none;
+    background-color: #D4E8D9;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: var(--main-font-color);
+    font-size: var(--main-font-size);
+}
+
+.works-button-active {
+    background-color: var(--green-font-color);
+    color: var(--white-color);
+}
+
+.work-item {
+    background-color: var(--primary-color);
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 30px;
+}
+
+.work-artist {
+    font-size: var(--medium-font-size);
+    color: var(--gray-font-clolor);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.work-name {
+    font-size: 30px;
+}
+
+.work-type {
+    font-size: var(--medium-font-size);
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.work-price {
+    color: var(--green-font-color);
+    font-size: 24px;
+}
+
+.works-buy {
+    padding-left: 106px;
+    padding-right: 106px;
+    margin-top: 20px;
+}
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#new-collection {
+    background-image: url(assets/background.svg);
+    padding: 70px 0;
+}
+
+.new-collection-title {
+    display: flex;
+    align-items: center;
+}
+
+.new-collection-title h2 {
+    color: var(--white-color);
+    font-weight: var(--medium-font-weight);
+    padding-left: 20px;
+}
+
+.new-collection-info p {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 150%;
+} 
+
+.new-collection-info button {
+    border: none;
+    background-color: #EEDB6D;
+    font-size: var(--main-font-size);
+    margin-top: 50px;
+}
+
+.team {
+    padding: 70px 0;
+}
+
+.team-info h2 {
+    font-weight: var(--medium-font-weight);
+}
+
+.team-info p {
+    font-weight: var(--medium-font-size);
+    line-height: 150%;
+}
+
+.team-immage:nth-child(2) {
+    margin: 0 30px;
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-link a {
+    display: block;
+    text-decoration: none;
+    color: var(--gray-font-clolor);
+    margin-top: 6px;
+}
+
+.footer-link:nth-child(2) {
+    margin: 0 60px;
+}
+
+.footer-contacts {
+    margin-top: 35px;
+    margin-bottom: 8px;
+    font-size: var(--main-font-size);
+}
+
+.footer-text {
+    font-size: var(--medium-font-size);
+    color: var(--gray-font-clolor);
+}
+ .footer-link-prod {
+        margin-left: 220px;
+}
+
+.footer-link h3 {
+    font-size: var(--main-font-size);
+    font-weight: var(--medium-font-weight);
+}
+
+.footer-social-icon {
+    margin: 0 33px;
+}
+
+.footer-text-social {
+    margin-top: 6px;
+    color: var(--gray-font-clolor);
+    font-size: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .container {
+        max-width: 690px;
+        margin: 0 auto;
+    }
+
+    .about-title{
+        font-size: 40px;
+    }
+    .about-text {
+        margin: 20px 13px 60px 0;
+    }
+    .about-right {
+        margin-left: 26px;
+    }
+    .work-item {
+        width: 290px;
+    }
+
+    .bird {
+        width: 330px;
+        height: 380px;
+    }
+    
+    
+    #new-collection {
+    background-image: url(assets/background_table.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 768px;           
+    height: 502px;       
+    display: flex;
+    align-items: center;
+    }
+
+    .new-collection-info button {
+        padding: 18.5px 36.5px;
+    }
+
+    .team-info {
+        margin-top: 40px;
+    }
+
+    .team-info p {
+        width: 690px;
+        line-height: 150%;
+    }
+
+    .team-immage {
+        margin-top: 30px;
+    }
+
+    .footer-info {
+        display: flex;
+        margin: 0 15px;
+    }
+    .footer-context {
+        display: flex;
+        flex-direction: column;
+        margin-left: 347px;
+        margin-top: -30px;
+    }
+
+    .footer-left{ 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-number-info {
+        margin-left: 197px;
+    }
+
+    .footer-links {
+        display: flex;
+        margin: 30px 180px 32px auto;
+    }
+    .img-footer {
+        display: flex;
+    }
+    .footer-link-prod {
+        margin-left: 60px;
+    }
+
+    .footer-text-socials {
+        display: flex;
+    }
+
+    .footer-socials {
+        margin: 0 auto;
+        color: #EEDB6D;
+    }
+
+    .footer-link:nth-child(2) {
+       margin-left: 100px; 
+       margin-right: 100px;
+    }
+
+    .work-picture {
+        width: 290px;
+        height: 392px;
+    }
+
+    .footer-icons {
+        padding-left: 12px;
+    }    
+
+}
