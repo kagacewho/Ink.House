@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ink. House</title>
+    <link rel="icon" href="assets/Starlogo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +12,18 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header-flex" >
+        <div class="header-left">
             <img src="assets/logo.svg" alt="logo">
-            <div class="header-info">
-                <a href="#works" class="header-main-links">Репродукции</a>
-                <a href="#" class="header-main-links">Новинки</a>
-                <a href="#" class="header-main-links">О нас</a>
-                <button class="header-link"></button>
+        </div>
+        <div class="header-right">
+            <div class="container header-flex">
+                <div class="header-info">
+                    <a href="#works" class="header-main-links">Репродукции</a>
+                    <a href="#new-collection" class="header-main-links">Новинки</a>
+                    <a href="#team" class="header-main-links">О нас</a>
+                    <button class="header-link"></button>
+                    <button class="mob"></button>
+                </div>
             </div>
         </div>
     </header>
@@ -108,7 +114,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="team">
             <div class="container team">
                 <img src="assets/paint.svg" class="team-immagemax" alt="group">
                 <div class="team-info">
@@ -152,9 +158,9 @@
                     </div>
                     <div class="footer-link-prod">
                         <div class="img-footer">
-                            <a><img src="assets/facebook.svg" alt="fb"></a>
-                            <a class="footer-social-icon"><img src="assets/instagram.svg" alt="inst"></a>
-                            <a><img src="assets/youtube.svg" alt="YT"></a>
+                            <a href="https://www.facebook.com/"><img src="assets/facebook.svg" alt="fb"></a>
+                            <a class="footer-social-icon" href="https://www.instagram.com/?hl=ru"><img src="assets/instagram.svg" alt="inst"></a>
+                            <a href="https://www.youtube.com/"><img src="assets/youtube.svg" alt="YT"></a>
                         </div>
                         <p class="footer-text-social">Ink. House ®</p>
                         <p class="footer-text-social">All rights reserved</p>
