@@ -384,6 +384,9 @@ footer {
     align-items: center;
     margin: 50px;
     }
+    .header-main-links {
+        font-size: 18px;
+        white-space: nowrap;}
     .header-right {
         width: 50%;
         background-color: var(--primary-color);
@@ -518,12 +521,12 @@ footer {
     .header-link {
         margin-top: -10px;
         display: flex;
-        margin-left: 325px;
+        margin-left: 280px;
         margin-bottom: -25px;
     }
     .mob {
         display: flex;
-        margin-right: 300px;
+        margin-right: 250px;
     }
     .about {
         flex-direction: column;
